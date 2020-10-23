@@ -1,0 +1,37 @@
+div.video-group h1 {
+  font-family: bungee, sans-serif;
+  color: var(--header-color);
+}
+
+div.video-group {
+  max-width: 800px;
+  width: 100%;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.video-group video {
+  width: 400px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+}
+
+button {
+  background-color: var(--header-color);
+  color: var(--white);
+  cursor: pointer;
+
+  outline: none;
+  border: 0;
+  padding: 5px 30px;
+
+  font-weight: bold;
+  font-size: 17px;
+}
+button:hover {
+  background-color: var(--header-color-hover);
+}
